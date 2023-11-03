@@ -6,13 +6,15 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 .nav-header {
-    padding: 0rem 1rem;
-    height: 90px;
+    padding: 3rem 3rem;
+    height: 12vh;
     width: 100vw;
     display: flex;
     flex-wrap: nowrap;
@@ -37,6 +39,7 @@ body {
 .mobile-nav-icon {
     width: 3rem;
     height: 3rem;
+    padding: 0 2px;
 }
 
 .mobile-nav-icon[name='close-outline'] {
@@ -64,7 +67,7 @@ body {
 
 .nav-links {
     display: flex;
-    gap: 1rem;
+    gap: 0.8rem;
     list-style: none;
     font-size: 1rem;
     color: #030200;
@@ -104,23 +107,22 @@ body {
 .banner-container {
     width: 100%;
     background-color: #f8d200;
-    height: 80vh;
-    /* height: 568px; */
+    height: 96vh;
     position: relative;
     overflow: hidden;
     margin: auto;
 }
 
 .banner-container .header-wrapper {
-    max-width: 80%;
-    height: 90%;
+    max-width: 90%;
     position: relative;
     display: flex;
     margin: auto;
     justify-content: center;
     align-items: center;
-    border: 0px solid red;
-    padding-top: 6%;
+    /* border: 1px solid red; */
+    margin-top: 5%;
+    padding-top: 12%;
 
 }
 
@@ -153,9 +155,9 @@ body {
     /* position: absolute;
     top: 29%;
     left: 8%; */
-    margin-right: 1.2%;
-    margin-top: -13%;
-    width: 170px;
+    margin-right: 3%;
+    margin-top: -9%;
+    width: 150px;
     height: auto;
 
 }
@@ -183,12 +185,12 @@ body {
 }
 
 .coffee-wraper img {
-    width: 130px;
+    width: 120px;
 }
 
 .coffee-wraper {
     position: relative;
-    bottom: -38%;
+    bottom: -28%;
     right: -2%;
 }
 
@@ -208,7 +210,7 @@ body {
 
 #img-container {
     width: 100%;
-    height: 66vh;
+    height: 86vh;
     display: flex;
 }
 
@@ -264,18 +266,16 @@ body {
     font-size: 2rem;
     color: #f8d200;
     font-weight: 800;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 15px;
 }
 
 .img-card-2 img {
-    width: 38%;
+    width: 45%;
 }
 
 .img-card-2 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .arrow-img {
@@ -292,19 +292,20 @@ body {
     justify-content: center;
     /* align-items: center; */
     gap: 1.5rem;
-    height: 80vh;
+    height: 90vh;
     border: 0px solid;
+    margin-bottom: 100px;
 }
 
 .card-wrapper {
-    width: 17%;
+    width: 23%;
+    height: auto;
     border: 0px solid rgb(115, 14, 115);
     position: relative;
-    height: auto;
 }
 
 .card-wrapper .chat-message {
-    height: 55vh;
+    height: 72vh;
     padding: 22px;
     position: relative;
     z-index: -1;
@@ -339,7 +340,7 @@ body {
 
 .card-wrapper .below-img img {
     position: absolute;
-    top: 44%;
+    top: 51%;
     bottom: 0;
     /* left: 0; */
     width: 100%;
@@ -383,39 +384,39 @@ body {
 }
 
 .carousel {
-    width: 75%;
-    height: 80vh;
+    width: 90%;
+    height: 100vh;
     margin: auto;
     border: 0px solid red;
 }
 
 .carousel-inner {
-    width: 90%;
+    width: 85%;
     border: 0px solid blue;
     margin: auto;
 }
 
 .c-item {
-    border: 0px solid rgb(43, 140, 144);
+    /* border: 2px solid rgb(43, 140, 144); */
     margin-top: 70px;
-    padding-left: 40px;
 }
 
 
 .c-item-div-1 .img-div {
-    border: 0px solid blue;
-    margin-top: -5%;
+    /* border: 2px solid blue; */
+    margin-top: -4%;
+    
 }
 
 .c-img {
     max-width: 100%;
-    height: 300px;
+    height: 450px;
 }
 
 .c-item-div-1 {
-    width: 90%;
+    width: 95%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     border: 0px solid;
@@ -424,7 +425,7 @@ body {
 
 
 .c-item-div-1-header {
-    width: 45%;
+    width: 48%;
     border: 0px solid;
     display: flex;
     justify-content: center;
@@ -432,9 +433,9 @@ body {
 }
 
 .c-item-div-1 h2 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #030200;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .c-item-div-2 {
@@ -485,52 +486,56 @@ body {
 #footer {
     width: 100%;
     background: #f8d200;
-    height: 44vh;
+    height: 60vh;
     padding-top: 50px;
     border: 0px solid;
 }
 
 #main-section {
-    width: 60%;
-    border: 0px solid;
+    width: 80%;
+    /* border: 2px solid red; */
     margin: auto;
     height: auto;
 }
 
 #main-section .section-1 {
-    width: 98%;
+    width: 95%;
     /* height: 70%; */
     margin: auto;
-    /* border: 0px solid; */
+    /* border: 1px solid; */
     /* margin-bottom: 5px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .section-1>div {
-    width: 43%;
-    height: 100%;
-    /* margin: auto; */
+    width: 50%;
     /* border: 1px solid red; */
+
 }
 
 .section-1 .s-card-1 {
+    /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
 }
 
 .s-card-1>div {
-    width: 44%;
     /* border: 1px solid; */
 }
 
+.s-card-1 > div:nth-child(2){
+    /* border: 1px solid red; */
+    padding-right: 12rem;
+}
+
 .section-1 .say-hi-img-div img {
-    height: 260px;
+    height: 240px;
 }
 
 .section-1 .s-card-1 p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.4;
     color: #030200;
     text-align: left;
@@ -583,27 +588,41 @@ body {
 .section-2 p {
     font-size: 1rem;
     text-align: left;
-    padding-top: 20px;
+    padding: 20px;
+}
+
+
+
+#scrollbtn{
+    position: fixed;
+    bottom:30px;
+    right: 20px;
+    z-index: 10000;
+    /* background-color:#f8d200;; */
 }
 
 
 
 
 
+@media (min-width:360px) and (max-width: 767px) {
 
 
-
-@media (min-width:370px) and (max-width: 767px) {
+    .nav-header {
+        padding: 0rem 1rem;
+        height: 10vh;
+        width: 100vw;
+    }
 
     .navbar {
         /* display: none; */
         width: 100%;
-        height: 100vh;
+        /* height: 10vh; */
         background-color: #fff;
         position: absolute;
         top: 0;
         left: 0;
-
+/* z-index: 89898; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -641,6 +660,7 @@ body {
 
 
     .nav-links {
+        /* background: #fff; */
         flex-direction: column;
         align-items: center;
         font-size: 1rem;
@@ -651,7 +671,7 @@ body {
 
     /* banner  */
     .banner-container {
-        height: 40vh;
+        height: 60vh;
     }
 
     .banner-container .header-wrapper {
@@ -668,33 +688,33 @@ body {
     }
 
     .header h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 500;
     }
 
     .header .smaller-text {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 400;
     }
 
     .header .smaller-text-2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: 300;
     }
 
 
     .gun-img-wrapper {
-        width: 50px;
+        width: 40px;
         margin-right: 0%;
-        margin-top: 15%;
+        margin-top: 1%;
     }
 
     .coffee-wraper img {
-        width: 40px;
+        width: 30px;
     }
 
     .coffee-wraper {
-        bottom: 5%;
+        bottom: 8%;
         right: 0%;
     }
 
@@ -788,19 +808,26 @@ body {
         background-image: url('https://socialpanga.com/wp-content/themes/socialpanga/assets/images/home/award-bg-mob-new.svg');
         background-repeat: no-repeat;
         background-size: cover;
-        height: 700px;
+        height: 500px;
         background-position: center;
     }
 
     .carousel {
-        width: 90%;
+        width: 95%;
         height: auto;
         /* margin: auto; */
     }
 
+    .carousel-inner {
+        width: 80%;
+        border: 0px solid blue;
+        margin: auto;
+    }
+    
+
     .c-item {
-        margin-top: 80px;
-        padding-left: 50px;
+        margin-top: 70px;
+        /* padding-left: 20px; */
     }
 
     .c-item-div-1 {
@@ -814,18 +841,26 @@ body {
     }
 
     .c-item-div-1-header {
-        width: 100%;
+        width: 90%;
         border: 0px solid;
     }
 
     .c-item-div-1 h2 {
-        font-size: 2rem;
+        font-size: 1.3rem;
         text-align: center;
     }
 
     .c-item-div-1 .img-div {
-        border: 0px solid blue;
-        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+        /* border: 2px solid blue; */
+    }
+
+    .c-img {
+        max-width: 80%;
+        height: 200px;
     }
 
     .c-item-div-2 {
@@ -835,12 +870,13 @@ body {
 
     #footer {
         width: 100%;
-        height: 100vh;
-        padding-top: 30px;
+        height: 105vh;
+        /* height: 125vh; */
+        padding-top: 50px;
     }
 
     #main-section {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: auto;
     }
@@ -863,20 +899,19 @@ body {
     }
 
     .section-1 .say-hi-img-div img {
-        height: 240px;
+        height: 200px;
     }
 
-
+    .section-1 .social-links img {
+        width: 40px;
+    }
+    
     #main-section .section-2 {
-        width: 100%;
-        /* height: 20%; */
-        margin: auto;
-        /* margin-top: 50px; */
+        width: 98%;
     }
 
     .section-2 p {
-        font-size: 1rem;
-        text-align: left;
+        font-size: 0.8rem;
     }
 }
 
@@ -885,6 +920,11 @@ body {
 
 @media (min-width:768px) and (max-width: 989px) {
 
+    .nav-header {
+        padding: 0rem 3rem;
+        height: 12vh;
+        width: 100vw;
+    }
 
     .navbar {
         width: 100%;
@@ -903,7 +943,7 @@ body {
 
         opacity: 0;
         visibility: hidden;
-        pointer-events: none;
+        /* pointer-events: none; */
     }
 
     .mobile-menu-button {
@@ -916,7 +956,7 @@ body {
         transform: translateX(0);
         opacity: 1;
         visibility: visible;
-        pointer-events: auto;
+        /* pointer-events: auto; */
     }
 
     .active .mobile-menu-button .mobile-nav-icon[name='close-outline'] {
@@ -935,9 +975,8 @@ body {
 
 
 
-
     .banner-container {
-        height: 85vh;
+        height: 90vh;
     }
 
     .banner-container .header-wrapper {
@@ -947,12 +986,13 @@ body {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        padding-top: 5%;
     }
 
     .gun-img-wrapper {
-        width: 100px;
+        width: 90px;
         margin-right: 0%;
-        margin-top: 8%;
+        margin-top: 0%;
     }
 
     .header h1 {
@@ -968,11 +1008,11 @@ body {
     }
 
     .coffee-wraper img {
-        width: 70px;
+        width: 60px;
     }
 
     .coffee-wraper {
-        bottom: 5%;
+        bottom: 10%;
         right: 0%;
     }
 
@@ -1006,6 +1046,12 @@ body {
     }
 
 
+    #img-container {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+    }
+    
     .chat-message h2 {
         line-height: 1.2;
         font-size: 1.4rem;
@@ -1016,34 +1062,99 @@ body {
         top: 40%;
     }
 
+    .chat-container-below-arrow {
+        margin-top: -40%;
+    }
+
+    #hero-carousel {
+        margin-top: 12rem;
+        background-image: url('https://socialpanga.com/wp-content/themes/socialpanga/assets/images/home/award-bg-mob-new.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        background-position: center;
+    }
+
+
+    .carousel {
+        width: 95%;
+        height: 85vh;
+        margin: auto;
+        border: 0px solid red;
+    }
+    
+    .c-item {
+        margin-top: 100px;
+        padding-left: 50px;
+    }
+
+    .c-item-div-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 0px solid;
+    }
+
+    .c-item-div-1-header {
+        width: 80%;
+    }
+
+    .c-item-div-1 h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .c-item-div-1 .img-div {
+        margin-top: 50px;
+    }
+
+    .c-img {
+        max-width: 100%;
+        height: 400px;
+    }
+    .c-item-div-2 {
+        display: none;
+    }
 
     #footer {
-        width: 100%;
-        background: #f8d200;
-        height: 60vh;
+        height: 75vh;
         padding-top: 50px;
         border: 0px solid;
     }
 
-    #main-section {
-        width: 96%;
-    }
 
-    .section-1>div {
-        width: 100%;
+    #main-section .section-1 {
+        width: 98%;
+
     }
     
     .section-1 .say-hi-img-div img {
-        height: 230px;
+        height: 220px;
+    }
+
+    .s-card-1 > div:nth-child(2){
+        /* border: 1px solid red; */
+        padding-right: 5rem;
     }
     
     .section-1 .s-card-1 p {
-        font-size: 1.3rem;
-        line-height: 1.5;
+        font-size: 1.2rem;
+        /* line-height: 1.2; */
+    }
+
+    .s-card-2 {
+      width: 150%; 
+      /* border: 2px solid;  */
     }
 
     .section-1 .s-card-2 li a {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 2;
     }
     
     .section-1 .social-links img {
@@ -1056,17 +1167,20 @@ body {
         padding-top: 10px;
     }
     
+    #main-section .section-2 {
+        width: 98%;
+    }
 }
 
 
 
-@media (min-width: 989px) and (max-width: 1581px){
+@media (min-width: 989px) and (max-width: 1281px){
     
     
 .nav-links {
-    gap: 0.7rem;
-    font-size: 1rem;
-    font-weight: 500;
+    gap: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 400;
 }
 
     .banner-container .header-wrapper {
@@ -1087,4 +1201,42 @@ body {
     .header .smaller-text-2 {
         font-size: 2.8rem;
     }
+
+
+    #footer {
+        height: 75vh;
+        padding-top: 50px;
+        border: 0px solid;
+    }
+
+    .section-1>div {
+        width: 48%;
+
+    }
+    
+    .section-1 .say-hi-img-div img {
+        height: 240px;
+    }
+    
+    .section-1 .s-card-1 p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+
+    .section-1 .s-card-2 li a {
+        font-size: 1.2rem;
+    }
+    
+    .section-1 .social-links img {
+        width: 40px;
+    }
+
+    .section-2 p {
+        font-size: 1rem;
+        text-align: left;
+        padding-top: 10px;
+    }
 }
+
+

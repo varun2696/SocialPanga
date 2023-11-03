@@ -31,7 +31,7 @@ trick1.addEventListener('mouseover', function () {
     banner_container.style.backgroundImage = "url('https://socialpanga.com/wp-content/uploads/2021/04/slider-banner-2.jpg')";
     banner_container.style.backgroundSize = 'cover';
     banner_container.style.backgroundRepeat = 'no-repeat';
-    banner_container.style.backgroundSize = '100% 90vh'
+    banner_container.style.backgroundSize = '100% 96vh'
     gun.style.visibility = 'hidden';
     glass.style.visibility = 'hidden';
     magic1.style.visibility = 'hidden';
@@ -69,7 +69,7 @@ trick2.addEventListener('mouseover', function () {
     banner_container.style.backgroundImage = "url('https://socialpanga.com/wp-content/uploads/2021/07/Awards-Banner-2.jpg')";
     banner_container.style.backgroundSize = 'cover';
     banner_container.style.backgroundRepeat = 'no-repeat';
-    banner_container.style.backgroundSize = '100% 90vh'
+    banner_container.style.backgroundSize = '100% 96vh'
     gun.style.visibility = 'hidden';
     glass.style.visibility = 'hidden';
     magic1.style.visibility = 'hidden';
@@ -103,7 +103,7 @@ trick3.addEventListener('mouseover', function () {
     banner_container.style.backgroundImage = "url('https://socialpanga.com/wp-content/uploads/2021/08/Home-Banner3-1.jpg')";
     banner_container.style.backgroundSize = 'cover';
     banner_container.style.backgroundRepeat = 'no-repeat';
-    banner_container.style.backgroundSize = '100% 87vh'
+    banner_container.style.backgroundSize = '100% 96vh'
     gun.style.visibility = 'hidden';
     glass.style.visibility = 'hidden';
     magic1.style.visibility = 'hidden';
@@ -154,3 +154,11 @@ document.addEventListener("visibilitychange", function () {
         changeTitle();
     }
 });
+
+
+
+const scrollbtn = document.getElementById('scrollbtn')
+
+scrollbtn.addEventListener('click',()=> {
+    window.scrollTo(0,0)
+})
